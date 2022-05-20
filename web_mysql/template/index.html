@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang= "en" >
+<head>
+  <meta charset= "UTF-8">
+  
+  <title>{{.Title}}</title>
+</head>
+<body>
+        {{if gt .Age 18}}
+        <h2>hello,old man,姓名:{{.Name}},年龄:{{.Age}}</h2>
+        {{else}}
+        <h2>hello,young man,姓名:{{.Name}},年龄:{{.Age}}</h2>
+        {{end}}
+ 
+</body>
+
+</html>
