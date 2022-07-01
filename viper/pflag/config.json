@@ -1,0 +1,12 @@
+{
+	"redis":{
+		"port":3301,
+		"host":"127.0.0.1"
+	},
+	"mysql":{
+		"port":3306,
+		"host":"127.0.0.1",
+		"username":"root",
+		"password":"123456"
+	}
+}
